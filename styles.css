@@ -1,0 +1,105 @@
+/* Custom Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .hero, .cta, .footer {
+    padding: 20px;
+}
+
+.hero {
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8') no-repeat center center;
+    background-size: cover;
+    color: #383838;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-box {
+    border: 1px solid #414141;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255); /* Ensure text color is readable */
+    text-align: center;
+    text-shadow: 
+        1px 1px 0 #000, 
+        -1px -1px 0 #fff,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000; /* Stroke effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    height: 200px; /* Adjust height if necessary */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: #383838;
+}
+
+.feature-box a {
+    color: inherit; /* Inherit text color from .feature-box */
+    text-decoration: none; /* Remove default underline */
+    display: block; /* Ensure anchor takes full space */
+    height: 100%;
+    width: 100%;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px); /* Moves the box up by 10px */
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2); /* Enhances shadow on hover */
+}
+
+.cta {
+    background-color: #343a40;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        height: auto;
+        padding: 40px 20px;
+    }
+}
+
+/* Additional Custom Styles */
+body {
+    padding-top: 20px;
+}
+
+#pokemon-info {
+    font-size: 1.2em;
+}
+
+.pokemon-image {
+    max-width: 150px;
+}
+
+.bg-primary {
+    background-color: #383838 !important;
+}
+
+.btn-light {
+    color: #fff;
+    background-color: #383838;
+    border-color: #004085;
+}
+/* Search */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*kZW4nlRSLAMq0EA2EoKStg.png');
+    background-size: auto;
+}
